@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Spot Afrique</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="resources/css/style.css">
+        <link rel="stylesheet" href="resources/css/searchbar.css">
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    </head>
+    <body>
+        <header class="header">
+            <img class="logo" src="resources/images/LogoDesign.png" alt="logo" width="75px" height="75px">
+            <h1 class="title">Spot Afrique</h1>
+            <nav>
+                <ul class="nav__links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="lang/en/about.html">About</a></li>
+                    <li><a href="lang/en/giftcard.html">Gift Card</a></li>
+                    <li class="language">
+                        <div class="dropdown">
+                            <a href="#">EN <img src="resources/images/icon_globe.png" alt="language button" width="14px" height="14px"></a>
+                            <div class="dropdown-content">
+                                <a href="#">English</a>
+                                <a href="#">Français</a>
+                                <a href="#">Español</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <p onclick="openNav()" class="menu cta">Menu</p>
+        </header>
+        <div id="mobile__menu" class="overlay">
+            <a class="close" onclick="closeNav()">&times;</a>
+            <div class="overlay__content">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Gift Card</a>
+                <a href="">EN <img src="resources/images/icon_globe.png" alt="language button" width="14px" height="14px"></a>
+            </div>
+        </div>
+        <div class="page-title">
+            <h2 class="header-title">Our Designers</h2>
+            <div class="wrapper">
+                <div class="search_box">
+                    <label>
+                        <input type="text" name="search" value="" autocomplete="off" id="myinput" onkeyup="searchFunction()" placeholder="What are you looking for?">
+                    </label>
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>
+        </div>
+        <div class="designer-content">
+            <div class="des">
+                <ul id="wrapper">
+                    <li class="designers">
+                        <div class="designer-picture">
+                            <img class="designer-img" src="https://i.imgur.com/hSYCMQZ.png" alt="img" >
+                        </div>
+                        <div class="designer-wrapper">
+                            <div class="designer-info">
+                                <a class="designer-title" href="lang/en/designers/mimmy_yehboah.html">MIMMY YEHBOAH</a>
+                                <hr>
+                                <p class="designer-from">Designer from: Ghana</p>
+                                <div class="icons">
+                                    <a href="https://www.instagram.com/mimmyyeboah/" target="_blank"><img class="instagram" src="resources/images/instagram-icon.png" alt="instagram icon"></a>
+                                    <a href="https://www.mimmyyeboah.com/contact" target="_blank"><img class="website" src="resources/images/website-icon.png" alt="website icon"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="lang/en/designers/mimmy_yehboah.html"><img class="menudots" src="resources/images/menu-dots-icon.png" alt="menu dots" width="35px"></a>
+                        </div>
+                    </li>
+                    <li class="designers">
+                        <div class="designer-picture">
+                            <img class="designer-img" src="https://imgur.com/UIJObBS.png" alt="img" >
+                        </div>
+                        <div class="designer-wrapper">
+                            <div class="designer-info">
+                                <a class="designer-title" href="lang/en/designers/ggbespoke.html">GG BESPOKE</a>
+                                <hr>
+                                <p class="designer-from">Designer from: Ghana</p>
+                                <div class="icons">
+                                    <a href="https://www.instagram.com/ggbespoke.gh/" target="_blank"><img class="instagram" src="resources/images/instagram-icon.png" alt="instagram icon"></a>
+                                    <a href="https://mymaaket.com/" target="_blank"><img class="website" src="resources/images/website-icon.png" alt="website icon"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="lang/en/designers/ggbespoke.html"><img class="menudots" src="resources/images/menu-dots-icon.png" alt="menu dots" width="35px"></a>
+                        </div>
+                    </li>
+                    <li class="designers">
+                        <div class="designer-picture">
+                            <img class="designer-img" src="https://imgur.com/zaUOqNY.png" alt="img" >
+                        </div>
+                        <div class="designer-wrapper">
+                            <div class="designer-info">
+                                <a class="designer-title" href="#">MILLE COLLINES</a>
+                                <hr>
+                                <p class="designer-from">Designer from: Kenya</p>
+                                <div class="icons">
+                                    <a href="https://www.instagram.com/millecollines/" target="_blank"><img class="instagram" src="resources/images/instagram-icon.png" alt="instagram icon"></a>
+                                    <a href="https://www.millecollines.es/ " target="_blank"><img class="website" src="resources/images/website-icon.png" alt="website icon"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="#"><img class="menudots" src="resources/images/menu-dots-icon.png" alt="menu dots" width="35px"></a>
+                        </div>
+                    </li>
+                    <li class="designers">
+                        <div class="designer-picture">
+                            <img class="designer-img" src="https://imgur.com/OoDYyVq.png" alt="img" >
+                        </div>
+                        <div class="designer-wrapper">
+                            <div class="designer-info">
+                                <a class="designer-title" href="#">AFRISTREETKOLLEKTION</a>
+                                <hr>
+                                <p class="designer-from">Designer from: Kenya</p>
+                                <div class="icons">
+                                    <a href="https://www.instagram.com/yvonneafrostreet/" target="_blank"><img class="instagram" src="resources/images/instagram-icon.png" alt="instagram icon"></a>
+                                    <a href="https://www.facebook.com/AfroStreet-Kollektions-272624332861764/" target="_blank"><img class="facebook" src="resources/images/facebook-icon.png" alt="facebook icon"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="#"><img class="menudots" src="resources/images/menu-dots-icon.png" alt="menu dots" width="35px"></a>
+                        </div>
+                    </li>
+                    <li class="designers">
+                        <div class="designer-picture">
+                            <img class="designer-img" src="https://imgur.com/rd7WGKa.png" alt="img" >
+                        </div>
+                        <div class="designer-wrapper">
+                            <div class="designer-info">
+                                <a class="designer-title" href="#">AMI DOSHI SHAH</a>
+                                <hr>
+                                <p class="designer-from">Designer from: Kenya</p>
+                                <div class="icons">
+                                    <a href="https://www.instagram.com/amidoshishah/" target="_blank"><img class="instagram" src="resources/images/instagram-icon.png" alt="instagram icon"></a>
+                                    <a href="https://amidoshishah.com/" target="_blank"><img class="website" src="resources/images/website-icon.png" alt="website icon"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="#"><img class="menudots" src="resources/images/menu-dots-icon.png" alt="menu dots" width="35px"></a>
+                        </div>
+                    </li>
+                    <li class="designers">
+                        <div class="designer-picture">
+                            <img class="designer-img" src="https://imgur.com/Te9YE02.png" alt="img" >
+                        </div>
+                        <div class="designer-wrapper">
+                            <div class="designer-info">
+                                <a class="designer-title" href="#">HAUTE BASO</a>
+                                <hr>
+                                <p class="designer-from">Designer from: Rwanda</p>
+                                <div class="icons">
+                                    <a href="instagram.com/hautebaso" target="_blank"><img class="instagram" src="resources/images/instagram-icon.png" alt="instagram icon"></a>
+                                    <a href="http://www.hautebaso.com/ " target="_blank"><img class="website" src="resources/images/website-icon.png" alt="website icon"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="#"><img class="menudots" src="resources/images/menu-dots-icon.png" alt="menu dots" width="35px"></a>
+                        </div>
+                    </li>
+                    <li class="designers">
+                        <div class="designer-picture">
+                            <img class="designer-img" src="https://imgur.com/sdnBDig.png" alt="img" >
+                        </div>
+                        <div class="designer-wrapper">
+                            <div class="designer-info">
+                                <a class="designer-title" href="#">INZUKI</a>
+                                <hr>
+                                <p class="designer-from">Designer from: Rwanda</p>
+                                <div class="icons">
+                                    <a href="https://www.instagram.com/inzukidesigns/" target="_blank"><img class="instagram" src="resources/images/instagram-icon.png" alt="instagram icon"></a>
+                                    <a href="https://inzuki.com/" target="_blank"><img class="website" src="resources/images/website-icon.png" alt="website icon"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="#"><img class="menudots" src="resources/images/menu-dots-icon.png" alt="menu dots" width="35px"></a>
+                        </div>
+                    </li>
+                    <li class="designers">
+                        <div class="designer-picture">
+                            <img class="designer-img" src="https://imgur.com/uwacEpL.png" alt="img" >
+                        </div>
+                        <div class="designer-wrapper">
+                            <div class="designer-info">
+                                <a class="designer-title" href="#">MOSHIONS</a>
+                                <hr>
+                                <p class="designer-from">Designer from: Rwanda</p>
+                                <div class="icons">
+                                    <a href="https://www.instagram.com/moshions/" target="_blank"><img class="instagram" src="resources/images/instagram-icon.png" alt="instagram icon"></a>
+                                    <a href="http://moshions.rw/" target="_blank"><img class="website" src="resources/images/website-icon.png" alt="website icon"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="#"><img class="menudots" src="resources/images/menu-dots-icon.png" alt="menu dots" width="35px"></a>
+                        </div>
+                    </li>
+                    <li class="designers">
+                        <div class="designer-picture">
+                            <img class="designer-img" src="https://imgur.com/ZFkU0Lf.png" alt="img" >
+                        </div>
+                        <div class="designer-wrapper">
+                            <div class="designer-info">
+                                <a class="designer-title" href="#">ANISSA MPUNGWE</a>
+                                <hr>
+                                <p class="designer-from">Designer from: South Africa</p>
+                                <div class="icons">
+                                    <a href=" https://www.instagram.com/loinclothandashes/" target="_blank"><img class="instagram" src="resources/images/instagram-icon.png" alt="instagram icon"></a>
+                                    <a href="https://www.loinclothandashes.com/" target="_blank"><img class="website" src="resources/images/website-icon.png" alt="website icon"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="#"><img class="menudots" src="resources/images/menu-dots-icon.png" alt="menu dots" width="35px"></a>
+                        </div>
+                    </li>
+                    <li class="designers">
+                        <div class="designer-picture">
+                            <img class="designer-img" src="https://imgur.com/IYfQUsS.png" alt="img" >
+                        </div>
+                        <div class="designer-wrapper">
+                            <div class="designer-info">
+                            <a class="designer-title" href="#">MELO MOSASE</a>
+                            <hr>
+                            <p class="designer-from">Designer from: South Africa</p>
+                                <div class="icons">
+                                    <a href="https://www.instagram.com/mobu_by_melo/" target="_blank"><img class="instagram" src="resources/images/instagram-icon.png" alt="instagram icon"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="#"><img class="menudots" src="resources/images/menu-dots-icon.png" alt="menu dots" width="35px"></a>
+                        </div>
+                    </li>
+                    <li class="designers">
+                        <div class="designer-picture">
+                            <img class="designer-img" src="https://imgur.com/pvrD21j.png" alt="img" >
+                        </div>
+                        <div class="designer-wrapper">
+                            <div class="designer-info">
+                            <a class="designer-title" href="#">DEOLA SAGOE</a>
+                            <hr>
+                            <p class="designer-from">Designer from: Nigeria</p>
+                                <div class="icons">
+                                    <a href="https://www.instagram.com/deolasagoeofficial/" target="_blank"><img class="instagram" src="resources/images/instagram-icon.png" alt="instagram icon"></a>
+                                    <a href="http://deolasagoe.co/" target="_blank"><img class="website" src="resources/images/website-icon.png" alt="website icon"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="#"><img class="menudots" src="resources/images/menu-dots-icon.png" alt="menu dots" width="35px"></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="resources/js/moblie.js"></script>
+    <script type="text/javascript" src="resources/js/searchbar.js"></script>
+</html>

@@ -1,0 +1,60 @@
+.des{
+    display: inline-flex;
+    padding-top: 30px;
+}
+.wrapper#wrapper {
+    list-style: none;
+    display: inline-flex;
+    margin-top: 60px;
+    text-align: center;
+}
+.designer-wrapper{
+    padding-top: 5%;
+    display: inline-flex;
+    margin: auto;
+}
+.designers{
+    width: 475px;
+    height: 200px;
+    background: #F4F9F9;
+    display: inline-flex;
+    margin: 15px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    text-align: center;
+}
+.designer-img{
+    border-radius: 15px;
+    width: 175px;
+    height: 200px;
+}
+.designers a{
+    font-size: 21px;
+    color: #00090C;
+    font-family: "Nunito", sans-serif;
+    text-decoration: none;
+}
+.icons a{
+    padding-left: 0;
+}
+.designer-from{
+    font-size: 17px;
+    color: #00090C;
+    font-family: "Nunito", sans-serif;
+}
+.designer-info{
+    padding-top: 10%;
+}
+hr {
+    width: 80%;
+    margin-left: 25px;
+    margin-right: auto;
+}
+.instagram, .facebook, .website{
+    margin-top: 20px;
+    width: 35px;
+    height: 35px;
+}
+.menudots{
+    padding-top: 80px;
+}

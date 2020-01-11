@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ebeb1811-f1ed-42ad-914e-88c80766dbfd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VC8WRyye5tG8gJHYPrEW3UX6Qm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lang/en" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tangu\OneDrive\MCT\Webcodding\Html Stuff\Website\lang\en" />
+      <recent name="C:\Users\tangu\OneDrive\MCT\Webcodding\Html Stuff\Website\lang\en\designers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tangu\OneDrive\MCT\Webcodding\Html Stuff\Website" />
+      <recent name="C:\Users\tangu\OneDrive\MCT\Webcodding\Html Stuff\Website\lang\en" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ebeb1811-f1ed-42ad-914e-88c80766dbfd" name="Default Changelist" comment="" />
+      <created>1576745747665</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576745747665</updated>
+      <workItem from="1576745749044" duration="10215000" />
+      <workItem from="1576785821829" duration="4054000" />
+      <workItem from="1576789904450" duration="123000" />
+      <workItem from="1576827654607" duration="4542000" />
+      <workItem from="1576869714780" duration="46000" />
+      <workItem from="1577656296824" duration="1184000" />
+      <workItem from="1577906823861" duration="3340000" />
+      <workItem from="1577918678500" duration="211000" />
+      <workItem from="1577919000365" duration="4595000" />
+      <workItem from="1577923618377" duration="106000" />
+      <workItem from="1577924460022" duration="4730000" />
+      <workItem from="1577969570241" duration="43000" />
+      <workItem from="1578011553735" duration="6835000" />
+      <workItem from="1578055132629" duration="31000" />
+      <workItem from="1578062064182" duration="14803000" />
+      <workItem from="1578087946531" duration="14000" />
+      <workItem from="1578089639379" duration="1328000" />
+      <workItem from="1578096367700" duration="160000" />
+      <workItem from="1578105846790" duration="2134000" />
+      <workItem from="1578156619823" duration="98000" />
+      <workItem from="1578168289638" duration="52000" />
+      <workItem from="1578299128511" duration="4920000" />
+      <workItem from="1578400598523" duration="100000" />
+      <workItem from="1578401131035" duration="167000" />
+      <workItem from="1578401973887" duration="642000" />
+      <workItem from="1578406326076" duration="338000" />
+      <workItem from="1578754464812" duration="1952000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578077612008">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578077612008" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1578156710331">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578156710331" />
+    <state x="461" y="161" key="SettingsEditor" timestamp="1577910082147">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="161" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577910082147" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1578076648563">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578076648563" />
+  </component>
+</project>

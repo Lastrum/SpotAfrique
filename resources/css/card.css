@@ -1,0 +1,139 @@
+.maincontainer{
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    background: none;
+    top: 31%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.thecard{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
+}
+.thecard:hover{
+    transform: rotateY(180deg);
+}
+.thefront{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    text-align: center;
+    overflow: hidden;
+    background: #191919;
+    color: #000;
+}
+.theback{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    overflow: hidden;
+    background: #191919;
+    color: #F4F9F9;
+    text-align: center;
+    transform: rotateY(180deg);
+}
+.card-content{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    text-align: left;
+}
+img.card-logo{
+    width: 200px;
+    height: 200px;
+}
+img.card-barcocde{
+    padding-top: 70px;
+}
+.card-center{
+    padding-top: 200px;
+}
+.cardpage-content{
+    flex: auto;
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    color: #191919;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 1%;
+    text-align: left;
+}
+.mini-header{
+    text-align: center;
+}
+.or{
+    font-family: "Nunito", sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: #191919;
+}
+.card-buy{
+    padding-top: 30px;
+    background-color: rgba(12,104,88,0.24);
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    display: inline-block;
+}
+.btn-buy, .btn-view{
+    font-family: "Nunito", sans-serif;
+    color: #F4F9F9;
+    border: none;
+    border-radius: 15px;
+}
+.btn-buy{
+    font-size: 30px;
+    width: 200px;
+    height: 60px;
+    background: #9b0000;
+}
+.btn-view{
+    font-size: 15px;
+    width: 175px;
+    height: 45px;
+    background-color: #191919;
+}
+.stores-work-wrapper{
+    padding-top: 30px;
+    text-align: center;
+}
+.stores-work{
+    font-family: "Nunito", sans-serif;
+    color: #F4F9F9;
+    font-size: 30px;
+    display: inline-flex;
+    border-radius: 15px;
+    background-color: #191919;
+    width: 400px;
+    height: 100px;
+    margin: 10px;
+}
+.stores-title{
+    margin: auto;
+}
+.store-logo{
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+}
+.menudots{
+    padding-top: 30px;
+}
